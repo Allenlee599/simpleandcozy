@@ -1,0 +1,37 @@
+<template>
+  <NavBar />
+  <ImageSwiper />
+  <BottomAboutus />
+</template>
+
+<script>
+import NavBar from './components/NavBar.vue';
+import ImageSwiper from './components/ImageSwiper.vue';
+import BottomAboutus from './components/BottomAboutus.vue';
+
+export default {
+  name: 'App',
+  components: {
+    NavBar, 
+    ImageSwiper,
+    BottomAboutus
+  }
+}
+</script>
+
+<style>
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: white;
+  margin-top: 30px;
+}
+
+/* body {
+  background-color: white;
+  background: cover;
+  background-size: cover;
+} */
+</style>
