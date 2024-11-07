@@ -1,5 +1,5 @@
 <template>
-    <swiper :navigation="true" :modules="modules" class="mySwiper">
+    <swiper :navigation="true" :pagination="{ clickable: true }" :modules="modules" class="mySwiper">
       <swiper-slide>
         <img src="../assets/fullhouse.jpg" alt="" />
       </swiper-slide>
@@ -26,13 +26,15 @@
   
     // Import Swiper styles
     import 'swiper/css';
-  
+
     import 'swiper/css/navigation';
+
+    import 'swiper/css/pagination';
   
     // import './style.css';
   
     // import required modules
-    import { Navigation } from 'swiper/modules';
+    import { Navigation, Pagination } from 'swiper/modules';
   
     export default {
       components: {
@@ -41,7 +43,7 @@
       },
       setup() {
         return {
-          modules: [Navigation],
+          modules: [Navigation, Pagination],
         };
       },
     };
@@ -52,8 +54,8 @@
 .swiper {
   position: relative;
   top : 150px;
-  width: 100%;
-  height: 100%;
+  width: 960px;
+  height: 540px;
 }
 
 .swiper-slide {
