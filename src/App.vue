@@ -1,19 +1,17 @@
 <template>
   <NavBar />
-  <ImageSwiper />
+  <router-view />
   <BottomAboutus />
 </template>
 
 <script>
 import NavBar from './components/NavBar.vue';
-import ImageSwiper from './components/ImageSwiper.vue';
 import BottomAboutus from './components/BottomAboutus.vue';
 
 export default {
   name: 'App',
   components: {
     NavBar, 
-    ImageSwiper,
     BottomAboutus
   }
 }
