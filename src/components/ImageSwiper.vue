@@ -53,17 +53,14 @@
 
 .swiper {
   position: relative;
-  top : 150px;
-  width: 960px;
-  height: 540px;
+  top : 1vh;
+  width: 100%;
+  height: auto;
 }
 
 .swiper-slide {
   text-align: center;
-  /* font-size: 18px; */
   background: white;
-
-  /* Center slide text vertically */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -72,9 +69,27 @@
 
 .swiper-slide img {
   display: block;
-  width: 95%;
-  height: 95%;
-  object-fit: cover;
+  width: 100%;
+  height: auto;
+  /* object-fit: cover; */
 }
 
+/* Media queries for responsive design */
+@media (max-width: 1200px) {
+  .swiper {
+    top: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .swiper {
+    top: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .swiper {
+    top: 20px;
+  }
+}
 </style>

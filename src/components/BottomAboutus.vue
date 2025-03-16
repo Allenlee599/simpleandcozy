@@ -7,8 +7,8 @@
                 </div>
             <div class="footer-content">
                 <h3>聯絡我們</h3>
-                <p>電話：02-1234-5678</p>
-                <p>信箱：</p>
+                <p>電話：0978-733-216</p>
+                <p>信箱：simpleandcozy216@gmail.com</p>
             </div>
         </div>
     </footer>
