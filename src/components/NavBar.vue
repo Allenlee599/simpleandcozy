@@ -1,6 +1,6 @@
 <template>
   <div class="navbar">
-    <img alt="simple_and_cozy_logo" src="../assets/simple_logo.svg">
+    <div class="brand-name">Simple&Cozy</div>
     <ul class="nav-links">
       <li><router-link to="/">Home</router-link></li>
       <li><router-link to="/about">About</router-link></li>
@@ -17,17 +17,12 @@ export default {
 </script>
 
 <style scoped>
-img {
-  width: 15rem; /* 314px */
-  height: 10.125rem;  /* 216px */
-  transform: rotate(90deg);
-}
 .navbar {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  height: 20%;
+  height: 10%;
   background-color: white;
   color: #333;
   padding: 10px 20px;
@@ -38,20 +33,37 @@ img {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: adds a shadow */
 }
 
+.brand-name {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.navbar img {
+  width: 15rem;
+  height: 7rem;
+  transform: rotate(90deg);
+  max-width: 100%;
+  object-fit: contain;
+}
+
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 30px;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
 }
 
 .nav-links li {
-  display: inline;
+  margin: 0;
 }
 
 .nav-links a {
   color: #333; /* Changed to a visible color */
   text-decoration: none;
   transition: color 0.3s;
+  font-weight: bold;
 }
 
 .nav-links a:hover {
@@ -68,5 +80,22 @@ img {
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s;
+}
+
+/* Media queries for responsive design */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .nav-button {
+    margin-top: 10px;
+  }
 }
 </style>
