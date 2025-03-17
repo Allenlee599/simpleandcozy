@@ -4,7 +4,7 @@
     <ul class="nav-links">
       <li><router-link to="/">Home</router-link></li>
       <li><router-link to="/about">About</router-link></li>
-      <li><router-link to="/room">Room</router-link></li>
+      <li><router-link to="/rooms">Rooms</router-link></li>
     </ul>
     <button class="nav-button">立即預訂</button>
   </div>
