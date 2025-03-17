@@ -2,9 +2,9 @@
   <div class="navbar">
     <div class="brand-name">Simple&Cozy</div>
     <ul class="nav-links">
-      <li><router-link to="/">Home</router-link></li>
-      <li><router-link to="/about">About</router-link></li>
-      <li><router-link to="/rooms">Rooms</router-link></li>
+      <li><router-link to="/">主頁</router-link></li>
+      <li><router-link to="/about">關於</router-link></li>
+      <li><router-link to="/rooms">介紹</router-link></li>
     </ul>
     <button class="nav-button">立即預訂</button>
   </div>
@@ -22,7 +22,7 @@ export default {
   top: 0;
   left: 0;
   width: 100%;
-  height: 5vh;
+  height: 5rem;
   background-color: white;
   color: #333;
   padding: 10px 20px;
