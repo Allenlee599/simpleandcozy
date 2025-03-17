@@ -1,20 +1,21 @@
-<!-- src/components/Home.vue -->
 <template>
-    <div>
-      <ImageSwiper />
-    </div>
-  </template>
-  
-  <script>
-  import ImageSwiper from '../components/ImageSwiper.vue';
-  export default {
-    name: 'HomeView',
-    components: {
-      ImageSwiper
-    }
+  <div class="home-container">
+    <ImageSwiper />
+  </div>
+</template>
+
+<script>
+import ImageSwiper from '../components/ImageSwiper.vue';
+export default {
+  name: 'HomeView',
+  components: {
+    ImageSwiper
   }
-  </script>
-  
-  <style scoped>
-  /* Add your styles here */
-  </style>
+}
+</script>
+
+<style scoped>
+.home-container {
+  margin-top: 0.5vh; /* Adjust this value as needed */
+}
+</style>

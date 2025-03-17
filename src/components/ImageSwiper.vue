@@ -26,14 +26,8 @@
   
     // Import Swiper styles
     import 'swiper/css';
-
     import 'swiper/css/navigation';
-
     import 'swiper/css/pagination';
-  
-    // import './style.css';
-  
-    // import required modules
     import { Navigation, Pagination } from 'swiper/modules';
   
     export default {
@@ -50,7 +44,18 @@
 </script>
 
 <style scoped>
+.mySwiper {
+  width: 100%;
+  height: 60vh; /* Set a fixed height for the swiper */
+  margin: 0; /* Ensure no margin around the swiper */
+  padding: 0;
+}
 
+.mySwiper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure images cover the container */
+}
 .swiper {
   position: relative;
   top : 1vh;

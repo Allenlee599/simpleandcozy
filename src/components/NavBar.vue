@@ -22,7 +22,7 @@ export default {
   top: 0;
   left: 0;
   width: 100%;
-  height: 10%;
+  height: 5vh;
   background-color: white;
   color: #333;
   padding: 10px 20px;

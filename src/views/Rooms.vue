@@ -40,7 +40,11 @@
   }
   </script>
   
+<<<<<<< Updated upstream
   <style scoped>
+=======
+<style scoped>
+>>>>>>> Stashed changes
 .rooms-container {
   display: flex;
   /* justify-content: center; */
@@ -50,9 +54,18 @@
 
 .sidebar {
   width: 150px; /* Set the width of the sidebar */
+<<<<<<< Updated upstream
   background-color: #ffffff; /* Background color for the sidebar */
   padding: 20px; /* Padding inside the sidebar */
   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Optional: adds a shadow */
+=======
+  background-color: #333; /* Background color for the sidebar */
+  padding: 20px; /* Padding inside the sidebar */
+  border-radius: 5px;;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Optional: adds a shadow */
+  position: sticky;
+  top: 10vh;
+>>>>>>> Stashed changes
 }
 
 .main-content {
