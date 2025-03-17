@@ -31,6 +31,7 @@
     data() {
     return {
       buttons: [
+        { label: '房子外觀', to: '/' },
         { label: '一樓空間', to: '/floor1' },
         { label: '二樓空間', to: '/floor2' },
         { label: '三樓空間', to: '/floor3' }
@@ -54,8 +55,7 @@
   padding: 20px; /* Padding inside the sidebar */
   border-radius: 5px;;
   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Optional: adds a shadow */
-  position: sticky;
-  top: 10vh;
+  position: fixed;
 }
 
 .main-content {

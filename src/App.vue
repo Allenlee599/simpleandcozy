@@ -26,10 +26,4 @@ export default {
   color: white;
   margin-top: 30px;
 }
-
-/* body {
-  background-color: white;
-  background: cover;
-  background-size: cover;
-} */
 </style>

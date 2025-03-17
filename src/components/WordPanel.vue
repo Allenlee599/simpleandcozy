@@ -1,6 +1,8 @@
 <template>
-    <div class='word-panel'>
+    <div class="button-panel">
       <slot name="buttons"></slot>
+    </div>  
+    <div class='word-panel'>
       <h1>{{ title }}</h1>
       <p>{{ message }}</p>
     </div>
@@ -24,6 +26,14 @@ export default {
 
 <style scoped>
 .word-panel {
+  position: relative;
+  top: 1vh;
+  right: 1.5vw;
+  width: 100%;
+  height: auto;
+  color: #000; 
+}
+.button-panel {
   position: relative;
   top: 1vh;
   width: 100%;

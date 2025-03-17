@@ -26,7 +26,7 @@ position: fixed;
 bottom: 0;
 left: 0;
 width: 100%;
-height: 8vh; /* Set a fixed height using vh */
+height: 2rem; /* Set a fixed height using vh */
 background-color: rgb(159, 29, 29);
 color: #fff;
 padding: 0.5rem 1rem; /* Adjust padding using rem */
