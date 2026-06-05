@@ -2,13 +2,16 @@
     <footer class="footer">
       <div class="AboutUs">
         <div class="footer-content">
-          <h3>關於我們</h3>
-          <p>我們是一群熱愛大自然的人，希望透過這個平台讓更多人認識大自然的美好。</p>
+          <p>電話：+886-978-733-216</p>
+          <p>信箱：simpleandcozy216@gmail.com</p>
         </div>
         <div class="footer-content">
-          <h3>聯絡我們</h3>
-          <p>電話：0978-733-216</p>
-          <p>信箱：simpleandcozy216@gmail.com</p>
+          <p>FB：心泊一隅 Simple and Cozy</p>
+          <p>IG：simple_and_cozy599</p>
+        </div>
+        <div class="footer-content">
+          <p>地址：台東縣長濱鄉三間村三間屋2之17號</p>
+          
         </div>
       </div>
     </footer>
@@ -26,7 +29,7 @@ position: fixed;
 bottom: 0;
 left: 0;
 width: 100%;
-height: 2rem; /* Set a fixed height using vh */
+height: auto; /* Set a fixed height using vh */
 background-color: rgb(159, 29, 29);
 color: #fff;
 padding: 0.5rem 1rem; /* Adjust padding using rem */
@@ -51,13 +54,13 @@ text-align: left; /* Align text to the left */
 
 .footer-content h3 {
 margin-bottom: 0.3125rem; /* Adjust margin using rem */
-font-size: 0.875rem; /* Adjust font size using rem */
+font-size: 1.5rem; /* Adjust font size using rem */
 font-weight: bold;
 }
 
 .footer-content p {
 margin: 0.125rem 0; /* Adjust margin using rem */
-font-size: 0.75rem; /* Adjust font size using rem */
+font-size: 1rem; /* Adjust font size using rem */
 }
 
 @media (max-width: 768px) {
